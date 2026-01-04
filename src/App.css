@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "flyonui" {
+  themes: light --default, dark --prefersdark, gourmet;
+};
+
+@source "./node_modules/flyonui/dist/index.js";
+@plugin "@iconify/tailwind4";
+
+@theme{
+  --color-blue-900: #204562;
+  --color-blue-400: #2C5873;
+  --color-blue-200: #436885;
+  --color-amber-400: #BA9C76;
+  --color-amber-200: #D1B897;
+}
+
