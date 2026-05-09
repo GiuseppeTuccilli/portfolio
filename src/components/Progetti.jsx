@@ -20,7 +20,7 @@ function Progetti() {
                   onClick={() => {
                     window.open(
                       "https://github.com/GiuseppeTuccilli/Capstone-Gestionale-Immobili",
-                      "_blank"
+                      "_blank",
                     );
                   }}
                 />
@@ -42,7 +42,7 @@ function Progetti() {
                     onClick={() => {
                       window.open(
                         "https://github.com/GiuseppeTuccilli/Capstone-Gestionale-Immobili",
-                        "_blank"
+                        "_blank",
                       );
                     }}
                   >
@@ -63,7 +63,7 @@ function Progetti() {
                   onClick={() => {
                     window.open(
                       "https://github.com/GiuseppeTuccilli/CloneAppleMusic",
-                      "_blank"
+                      "_blank",
                     );
                   }}
                 />
@@ -84,7 +84,7 @@ function Progetti() {
                     onClick={() => {
                       window.open(
                         "https://github.com/GiuseppeTuccilli/CloneAppleMusic",
-                        "_blank"
+                        "_blank",
                       );
                     }}
                   >
@@ -105,7 +105,7 @@ function Progetti() {
                   onClick={() => {
                     window.open(
                       "https://github.com/GiuseppeTuccilli/MeteoWebApp",
-                      "_blank"
+                      "_blank",
                     );
                   }}
                 />
@@ -126,12 +126,23 @@ function Progetti() {
                     onClick={() => {
                       window.open(
                         "https://github.com/GiuseppeTuccilli/MeteoWebApp",
-                        "_blank"
+                        "_blank",
                       );
                     }}
                   >
                     <span className="text-2xl mb-1 icon-[tabler--brand-github]"></span>{" "}
                     Repository
+                  </button>
+                  <button
+                    className="btn bg-blue-400 hover:bg-blue-200 border-amber-200"
+                    onClick={() => {
+                      window.open(
+                        "https://giuseppe-tuccilli-meteo-app.netlify.app",
+                        "_blank",
+                      );
+                    }}
+                  >
+                    <span className="text-2xl icon-[tabler--link]"></span> Apri
                   </button>
                 </div>
               </div>
