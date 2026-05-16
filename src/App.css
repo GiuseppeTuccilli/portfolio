@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "flowbite-react/plugin/tailwindcss";
+/*@import "flowbite-react/plugin/tailwindcss";*/
 @source "../../.flowbite-react/class-list.json";
 @plugin "flyonui" {
   themes: light --default, dark --prefersdark, gourmet;
