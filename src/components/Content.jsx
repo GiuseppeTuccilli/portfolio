@@ -34,10 +34,10 @@ function Content() {
             "bg-gray-800 flex flex-col justify-start py-3 px-2 items-center transition-all duration-200 ease-linear z-10" +
             (expanded
               ? " absolute md:relative h-full min-w-[60%] md:min-w-[30%] lg:min-w-50"
-              : " min-w-15 md:min-w-15 lg:min-w-15")
+              : " min-w-15 md:min-w-20 lg:min-w-20")
           }
         >
-          <div className="w-full flex justify-end">
+          <div className="w-full flex justify-center">
             <button
               className="hover:cursor-pointer hover:bg-blue-200 bg-blue-400 rounded px-3 pt-0.5 text-white"
               onClick={() => {

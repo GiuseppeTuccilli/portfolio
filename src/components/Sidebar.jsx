@@ -13,7 +13,7 @@ function Sidebar(props) {
             }
             href="#top"
           >
-            <span className="text-2xl icon-[tabler--arrow-autofit-up]"></span>
+            <span className="text-3xl icon-[tabler--arrow-autofit-up]"></span>
             {expanded && <p className="ms-2">Top</p>}
           </a>
         </div>
@@ -25,7 +25,7 @@ function Sidebar(props) {
             }
             href="#progetti"
           >
-            <span className="text-2xl icon-[tabler--brand-react]"></span>
+            <span className="text-3xl icon-[tabler--brand-react]"></span>
             {expanded && <p className="ms-2">Progetti</p>}
           </a>
         </div>
@@ -38,7 +38,7 @@ function Sidebar(props) {
             }
             href="#link"
           >
-            <span className="text-2xl icon-[tabler--link]"></span>
+            <span className="text-3xl icon-[tabler--link]"></span>
             {expanded && <p className="ms-2">Link</p>}
           </a>
         </div>
