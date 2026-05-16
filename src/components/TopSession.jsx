@@ -13,8 +13,8 @@ function TopSession() {
         <div className=" flex justify-between px-2 py-3 border-b-2 border-blue-400 bg-linear-to-r from-blue-200 to-gray-200 flex-wrap">
           <div className="h-[5em] w-[5em] bg-cover bg-center icon-[tabler--brand-react] text-[#00D9FF] m-2 "></div>
           <div className="bg-[url('https://www.svgrepo.com/show/374093/sql.svg')] h-[5em] w-[5em] bg-cover bg-center m-2"></div>
-          <div className="bg-[url('public/images/Unofficial_JavaScript_logo_2.svg.png')] h-[5em] w-[5em] bg-cover bg-center m-2"></div>
-          <div className="bg-[url('public/images/HTML5_logo_and_wordmark.svg.png')] h-[5em] w-[5em] bg-cover bg-center m-2"></div>
+          <div className="bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/960px-JavaScript-logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail')] h-[5em] w-[5em] bg-cover bg-center m-2"></div>
+          <div className="bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/3840px-HTML5_Badge.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail')] h-[5em] w-[5em] bg-cover bg-center m-2"></div>
           <div className="bg-[url('https://staging.svgrepo.com/show/134149/css.svg')] h-[5em] w-[5em] bg-cover bg-center m-2"></div>
           <div className="bg-[url('https://www.svgrepo.com/show/303388/java-4-logo.svg')] h-[5em] w-[5em] bg-cover bg-center m-2"></div>
         </div>
